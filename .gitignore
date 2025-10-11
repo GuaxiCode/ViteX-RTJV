@@ -1,0 +1,6 @@
+# .gitignore Settings - Ignored Folders
+dist/
+node_modules/
+
+# .gitignore Settings - Ignored Files
+package-lock.json
