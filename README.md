@@ -1,54 +1,75 @@
-# ViteX - RTJV Template
+<div align="center">
 
-Minimal template for web projects using React + Tailwind + JavaScript + Vite.
 
-## Description
+# **ViteX – RTJV Template**
 
-- Project initialized from a Vite template with React and Tailwind.
-- A simple structure designed to help you get started quickly, with HMR and Tailwind preconfigured.
+Modern Frontend Boilerplate powered by
 
-## Main files
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
 
-- Project configuration: [package.json](package.json)
-- Vite configuration: [vite.config.js](vite.config.js)
-- HTML entry: [src/index.html](src/index.html)
-- React entry point: [src/index.jsx](src/index.jsx)
-- Tailwind import: [src/index.css](src/index.css)
-- Root component: [`App`](src/App/App.jsx)
-- Routes: [`AppRoutes`](src/Routes/Routes.jsx)
-- Home page: [`Home`](src/Pages/Home/Home.jsx)
+---
 
-## Requirements
+A **minimal, scalable, and performance-focused** starter kit for modern web development.  
+Engineered for professionals who value **clean architecture**, **speed**, and **developer experience**.
 
-- Node.js (LTS recommended)
-- npm
+</div>
 
-## Installation
+---
 
-```sh
+<br>
+
+## 📘 Overview
+
+**ViteX – RTJV Template** is a lightweight, production-ready boilerplate built on Vite with full React and Tailwind CSS integration.  
+Designed for rapid prototyping and enterprise-grade scalability.
+
+---
+
+## 🧩 Core Features
+
+- ⚙️ **Vite + React + Tailwind** preconfigured out of the box  
+- 🔥 **HMR (Hot Module Replacement)** for instant feedback during development  
+- 🧠 Clean, modular, and maintainable structure  
+- 💅 Prettier & ESLint already integrated  
+- 🚀 Ready for production build and deployment  
+
+---
+
+## 🗂️ Project Structure
+
+| File / Directory | Description |
+|------------------|-------------|
+| `package.json` | Project configuration and dependencies |
+| `vite.config.js` | Vite setup and custom build settings |
+| `src/index.html` | Main HTML entry |
+| `src/index.jsx` | React entry point |
+| `src/index.css` | Tailwind import and base styles |
+| `src/App/App.jsx` | Root component |
+| `src/Routes/Routes.jsx` | Application routing logic |
+| `src/Pages/Home/Home.jsx` | Default Home page |
+
+---
+
+## ⚙️ Requirements
+
+- **Node.js** with **NPM** (LTS recommended)  
+
+---
+
+## 💻 Installation
+
+```bash
+# Clone this repository
+git clone https://github.com/GuaxiCode/ViteX-RTJV
+
+# Enter project directory
+cd ViteX-RTJV
+
+# Install dependencies
 npm install
-```
 
-## Useful scripts
-
-- Start development (Vite, HMR): `npm run dev`
-- Build for production: `npm run build`
-- Run ESLint: `npm run lint`
-- Format with Prettier: `npm run prettier`
-
-## Quick edits
-
-- React entry point: [src/index.jsx](src/index.jsx)
-- Home page: edit [src/Pages/Home/Home.jsx](src/Pages/Home/Home.jsx)
-- Styles / Tailwind import: [src/index.css](src/index.css)
-- Dev server port: see [vite.config.js](vite.config.js) (default configured to 8080)
-
-## Notes
-
-- Tailwind is imported in [src/index.css](src/index.css).
-- Routing is handled by React Router: see [`AppRoutes`](src/Routes/Routes.jsx).
-
-## License
-
-- MIT
-- This project is open source — feel free to fork, modify, and redistribute.
+# Run development server
+npm run dev
