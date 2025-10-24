@@ -1,6 +1,5 @@
 <div align="center">
 
-
 # **ViteX – RTJV Template**
 
 Modern Frontend Boilerplate powered by
@@ -30,32 +29,32 @@ Designed for rapid prototyping and enterprise-grade scalability.
 
 ## 🧩 Core Features
 
-- ⚙️ **Vite + React + Tailwind** preconfigured out of the box  
-- 🔥 **HMR (Hot Module Replacement)** for instant feedback during development  
-- 🧠 Clean, modular, and maintainable structure  
-- 💅 Prettier & ESLint already integrated  
-- 🚀 Ready for production build and deployment  
+- ⚙️ **Vite + React + Tailwind** preconfigured out of the box
+- 🔥 **HMR (Hot Module Replacement)** for instant feedback during development
+- 🧠 Clean, modular, and maintainable structure
+- 💅 Prettier & ESLint already integrated
+- 🚀 Ready for production build and deployment
 
 ---
 
 ## 🗂️ Project Structure
 
-| File / Directory | Description |
-|------------------|-------------|
-| `package.json` | Project configuration and dependencies |
-| `vite.config.js` | Vite setup and custom build settings |
-| `src/index.html` | Main HTML entry |
-| `src/index.jsx` | React entry point |
-| `src/index.css` | Tailwind import and base styles |
-| `src/App/App.jsx` | Root component |
-| `src/Routes/Routes.jsx` | Application routing logic |
-| `src/Pages/Home/Home.jsx` | Default Home page |
+| File / Directory          | Description                            |
+| ------------------------- | -------------------------------------- |
+| `package.json`            | Project configuration and dependencies |
+| `vite.config.js`          | Vite setup and custom build settings   |
+| `src/index.html`          | Main HTML entry                        |
+| `src/index.jsx`           | React entry point                      |
+| `src/index.css`           | Tailwind import and base styles        |
+| `src/App/App.jsx`         | Root component                         |
+| `src/Routes/Routes.jsx`   | Application routing logic              |
+| `src/Pages/Home/Home.jsx` | Default Home page                      |
 
 ---
 
 ## ⚙️ Requirements
 
-- **Node.js** with **NPM** (LTS recommended)  
+- **Node.js** with **NPM** (LTS recommended)
 
 ---
 
@@ -73,3 +72,10 @@ npm install
 
 # Run development server
 npm run dev
+```
+
+---
+
+## 📄 License
+
+This project is **open source** and licensed under the [MIT License](LICENSE).
