@@ -5,7 +5,7 @@ import tailwindcssLogo from "./Images/tailwindcss.svg";
 import javascriptLogo from "./Images/javascript.svg";
 import viteLogo from "./Images/vite.svg";
 
-import FullScreen from "../../Components/FullScreen/FullScreen";
+import FullScreen from "@/Components/FullScreen/FullScreen";
 
 export default function Home() {
 	const [count, setCount] = useState(0);
