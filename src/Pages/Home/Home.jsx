@@ -5,12 +5,14 @@ import tailwindcssLogo from "./Images/tailwindcss.svg";
 import javascriptLogo from "./Images/javascript.svg";
 import viteLogo from "./Images/vite.svg";
 
+import FullScreen from "../../Components/FullScreen/FullScreen";
+
 export default function Home() {
 	const [count, setCount] = useState(0);
 
 	return (
 		<>
-			<div className="flex min-h-screen items-center justify-center bg-sky-50">
+			<FullScreen className="flex items-center justify-center bg-sky-50">
 				<div className="flex w-full max-w-xl flex-col items-center justify-center gap-6 rounded-lg p-6 backdrop-blur-sm">
 					<header className="mb-4 flex w-full flex-col items-center">
 						<div className="mb-4 flex flex-wrap justify-center gap-8">
@@ -73,7 +75,7 @@ export default function Home() {
 					</header>
 
 					<main className="flex w-full flex-col items-center gap-6 px-4">
-						<section className="flex w-full flex-col items-center gap-6 rounded-2xl border-[1px] border-sky-400 bg-sky-100/60 p-6 shadow-sm transition-all duration-300">
+						<section className="flex w-full flex-col items-center gap-6 rounded-2xl border border-sky-400 bg-sky-100/60 p-6 shadow-sm transition-all duration-300">
 							<button
 								onClick={() => setCount((c) => c + 1)}
 								className="w-full max-w-[375px] cursor-pointer rounded-lg bg-sky-400 px-4 py-2 font-semibold text-white shadow transition-colors duration-300 hover:bg-sky-500"
@@ -96,7 +98,7 @@ export default function Home() {
 						to learn more.
 					</footer>
 				</div>
-			</div>
+			</FullScreen>
 		</>
 	);
 }
